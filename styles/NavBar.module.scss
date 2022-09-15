@@ -71,10 +71,12 @@
             font-family: arial;
             margin: 0 auto;
             color: #fff;
-            background-color: #56C1A8;  
+            
+            background: linear-gradient(0,#44bca1,#85dfcc);
+            
         }
         .applyButton:hover{
-            background: linear-gradient(0,#44bca1,#85dfcc);
+            background: linear-gradient(0,#3ddab8,#5ebeaa);  
             color: #fff !important;
             cursor: pointer;
         }

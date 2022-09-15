@@ -7,7 +7,7 @@ const Navbar = () => {
     return (
         <section className={style.navBarContainer}>
             <div className={style.logo}>
-                <Image width='100' height='60' src='http://gambiatechproject.org/wp-content/uploads/2022/01/cropped-cropped-GTP1.png' />
+                <Image width='100' height='60'alt='Gambia Tech logo' src='http://gambiatechproject.org/wp-content/uploads/2022/01/cropped-cropped-GTP1.png' />
             </div>
 
             <div className={style.navListContainer}>
