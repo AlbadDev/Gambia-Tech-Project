@@ -15,10 +15,10 @@ const Navbar = () => {
                     <ul>
                         <li><a>Home</a></li>
                         <li>Who We Are</li>
-                        <li>Activities</li>
+                        <li>Events & WorkShops</li>
                         <li>Directory</li>
                         <li>Gallery</li>
-                        <li>DataBase</li>
+                        <li>Database</li>
                         <li>Contact</li>
                         <li>Our Startups</li>
                     </ul>
