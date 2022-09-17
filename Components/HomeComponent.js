@@ -10,10 +10,12 @@ const HomeComponent = () => {
     return (
         <section className={style.homeSectionComponent}>
             <article className={style.homeRigthComponent}>
-                <h2>Incubation</h2>
-                <h2>& </h2>
-                <h2>Innovation</h2>
-                <p>The Gambia Tech Project is a program deployed by the French Embassy in collaboration with the French Alliance of Banjul to foster and participate actively in the development of a Tech ecosystem that will offer opportunities and facilitate innovations for the young entrepreneurs. With a dedicated incubation space and Tech Lab opened within the Alliance, the project is giving the opportunity to all entrepreneurs to have access to different resources and opportunities.</p>
+                <div className={style.homeRigthHead}>
+                    <h2>INCUBATION</h2>
+                    <h2>& </h2>
+                    <h2>INOVATION</h2>
+                </div>
+                <p><i><span className={style.gtSpan}>Gambia Tech Project</span> is a program deployed by the French Embassy in collaboration with the French Alliance of Banjul to foster and participate actively in the development of a Tech ecosystem that will offer opportunities and <span className={style.higthLigth}>facilitate innovations for the young entrepreneurs.</span> With a dedicated incubation space and Tech Lab opened within the Alliance, the project is <span className={style.higthLigth}>giving the opportunity to all entrepreneurs to have access to different resources and opportunities.</span></i></p>
                 <hr className={style.hr}/>
                 <div className={style.rigthComponentImage}>
                     
