@@ -4,6 +4,7 @@ import style from '../styles/Home.module.css'
 import HomeComponent from '../Components/HomeComponent'
 import WhyGambiaTech from '../Components/WhyGambiaTech'
 import Awareness from '../Components/Awareness'
+import LiveTheExperience from '../Components/LiveTheExperience'
 
 
 
@@ -23,6 +24,7 @@ export default function Home() {
         <HomeComponent />
         <WhyGambiaTech />
         <Awareness />
+        <LiveTheExperience />
       </main>
 
       <footer className={style.footer}>

@@ -1,0 +1,98 @@
+.experienceContainer {
+    height: auto;
+    width: 100%;
+    padding: 50px;
+    background-color: #F1F5F8;
+    .experienceArticle {
+        display: flex;
+        flex-direction: column;
+
+        h2 {
+            font-size: 36px;
+            font-family: arial sans-serif;
+            color: #2c2e35;
+        }
+
+        h3 {
+            font-size: 3rem;
+            font-weight: 300;
+            color: #171717;
+        }
+        
+    }
+    .articleContainer {
+        display: flex;
+        justify-content: center;
+    }
+    .article {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        width: 30%;
+        height: 450px;
+        background-color: rgb(255, 255, 255);
+        margin: 5px;
+        
+        .articleImg1 {
+            background-image: url('../public/projectGoal.png');
+            background-position: center;
+            background-size: cover;
+            height: 190px;
+        }
+        .articleImg2 {
+            background-image: url('../public/liveThexperience2.png');
+            background-position: center;
+            background-size: cover;
+            height: 190px;
+        }
+        .articleImg3 {
+            background-image: url('../public/training.png');
+            background-position: center;
+            background-size: cover;
+            height: 190px;
+        }
+        .articleImg4 {
+            background-image: url('../public/incubate.png');
+            background-position: center;
+            background-size: cover;
+            height: 190px;
+        }
+        .articleBoby {
+            padding: 10px;
+            h3 {
+                color: #3109a0fa;
+                text-decoration: underline;
+                font-size: 14px;
+            }
+            h3:hover{
+                cursor: pointer;
+            }
+            p {
+                font-weight: 400;
+                font-family: arial sans-serif;
+                font-size: 18px;
+
+            }
+        }
+        .readMoreContainer {
+            // display: flex;
+            // flex-direction: column;
+            // justify-content: left;
+            background-color: #fff;
+            padding: 10px;
+            margin-top: -5px;
+            border-top: 0.5px solid rgba(0, 0, 255, 0.199);
+            .readMore {
+                letter-spacing: 1px;
+                font-family: arial;
+                margin: 0 auto;
+                color: #fff;
+                background: linear-gradient(0, #44bca1, #85dfcc);
+                border: none;
+                border-radius: 5px ;
+                padding: 5px;
+                
+            }
+        }
+    }
+}
