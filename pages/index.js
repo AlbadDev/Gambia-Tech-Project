@@ -3,6 +3,11 @@ import Head from 'next/head'
 import style from '../styles/Home.module.css'
 import HomeComponent from '../Components/HomeComponent'
 import WhyGambiaTech from '../Components/WhyGambiaTech'
+import Awareness from '../Components/Awareness'
+
+
+
+
 
 export default function Home() {
   return (
@@ -17,6 +22,7 @@ export default function Home() {
       <main className={style.main}>
         <HomeComponent />
         <WhyGambiaTech />
+        <Awareness />
       </main>
 
       <footer className={style.footer}>

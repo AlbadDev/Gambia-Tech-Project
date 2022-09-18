@@ -1,7 +1,7 @@
 .sectionContainer {
     display: flex;
     justify-content: space-between;
-    height: 500px;
+    height: 600px;
     background-color: #F1F5F8;
     padding: 50px;
     width: 100%;
@@ -15,7 +15,7 @@
         // border: 1px solid gray;
 
         h3 {
-            
+            font-family: arial sans-serif;
             font-size: 36px;
         }
         .pSpan {
@@ -25,7 +25,7 @@
         }
         .mainObj {
             font-family: arial sans-serif;
-            font-size: 20px;
+            font-size: 24px;
             padding: 10px;
             border-left: 5px solid rgba(15, 49, 129, 0.9019607843);;
         }

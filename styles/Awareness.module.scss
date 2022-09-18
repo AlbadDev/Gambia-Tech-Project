@@ -1,0 +1,120 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0;
+    .header {
+        font-size: 36px;
+        color: #494A52;
+        font-family: arial sans-serif;
+    }
+
+    .sectionContainer {
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        height: 500px;
+        padding: 100px 50px;
+        margin-top: -70px;
+        .awareness {
+            border: 1px solid rgba(221, 218, 218, 0.274);
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            justify-content: center;
+            height: 400px;
+            margin-top: 20px;
+            .awareText {
+                display: flex;
+                flex-direction: column;
+                //justify-content: center;
+                align-items: center;
+                padding: 10px;
+                
+                h3 {
+                    padding: 5px;
+                    font-size: 22px;
+                    color: #01A682;
+                    // border: 1px solid gray;
+                    margin-bottom: -20px;
+                    
+                }
+                h3::after {
+                    content: "";
+                    position:absolute;
+                    transform: rotate(90deg);
+                    display: inline;
+                    margin-top: -18px;
+                    margin-left: 50px;
+                    width: 2px;
+                    height: 70px;
+                    background-color: #01A682;
+        
+
+                }
+                p {
+                    border-left: 5px solid #01A682;
+                    padding: 5px 15px;
+                    font-size: 20px;
+                    font-family: arial sans-serif;
+                    
+                }
+        
+            }
+            .awareImg1 {
+                //border: 1px solid gray;
+                border-radius: 50px;
+                height: 120px;
+                width: 30%;
+                background-image: url('../public/evevt.png');
+                background-position: center;
+                background-size: cover;
+                z-index: 1;
+            }
+            .awareImg2 {
+                border-radius: 50px;
+                height: 120px;
+                width: 30%;
+                background-image: url('../public/ressource.png');
+                background-position: center;
+                background-size: cover;
+            }
+            .awareImg3 {
+                border-radius: 50px;
+                height: 120px;
+                width: 30%;
+                background-image: url('../public/entrepreneur.png');
+                background-position: center;
+                background-size: cover;
+            }
+            .learnMoreContainer {
+                //display: flex;
+                float: right;
+                width: 100%;
+                .learnMoreButton {
+                    letter-spacing: 1px;
+                    font-family: arial;
+                    margin: 0 auto;
+                    color: #fff;
+                    background: linear-gradient(0, #44bca1, #85dfcc);
+                    border: none;
+                    border-radius: 10px ;
+                    height: 30px;
+                    margin: 15px;
+                    float: right;
+                }
+                .learnMoreButton:hover {
+                    cursor: pointer;
+                    background: linear-gradient(0, #3ddab8, #5ebeaa);
+                }
+            }
+            
+            
+        }
+        .awareness:hover {
+            cursor: pointer;
+            border-color: #3ddab87a;
+            transition: 1s
+        }
+    }
+}
