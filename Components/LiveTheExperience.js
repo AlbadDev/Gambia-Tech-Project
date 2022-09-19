@@ -7,7 +7,7 @@ const LiveTheExperience = () => {
     return (
         <section className={style.experienceContainer}>
             <article className={style.experienceArticle}>
-                <h2>LIVE THE EXPERIENCE</h2>
+                <h2>Live The Experience</h2>
                 <h3>Within the two (2) years program, the main activities are listed as following :</h3>
             </article>
             <article className={style.articleContainer}>

@@ -34,7 +34,8 @@
                 h3 {
                     padding: 5px;
                     font-size: 22px;
-                    color: #01A682;
+                    color: rgba(5, 5, 105, 0.932);
+                    //color: #01A682;
                     // border: 1px solid gray;
                     margin-bottom: -20px;
                     
@@ -48,21 +49,23 @@
                     margin-left: 50px;
                     width: 2px;
                     height: 70px;
-                    background-color: #01A682;
-        
+                    background: linear-gradient(0, #44bca1, #85dfcc);
+                    //rgba(5, 5, 105, 0.932)
 
                 }
                 p {
-                    border-left: 5px solid #01A682;
+                    border-left: 5px solid rgba(5, 5, 105, 0.932);
+                    //#01A682; 
                     padding: 5px 15px;
                     font-size: 20px;
                     font-family: arial sans-serif;
+                    word-spacing: 5px;
                     
                 }
         
             }
             .awareImg1 {
-                //border: 1px solid gray;
+                border-bottom: 5px solid rgba(5, 5, 105, 0.932);
                 border-radius: 50px;
                 height: 120px;
                 width: 30%;
@@ -72,6 +75,7 @@
                 z-index: 1;
             }
             .awareImg2 {
+                border-bottom: 5px solid rgba(5, 5, 105, 0.932);
                 border-radius: 50px;
                 height: 120px;
                 width: 30%;
@@ -80,6 +84,7 @@
                 background-size: cover;
             }
             .awareImg3 {
+                border-bottom: 5px solid rgba(5, 5, 105, 0.932);
                 border-radius: 50px;
                 height: 120px;
                 width: 30%;
@@ -111,10 +116,20 @@
             
             
         }
-        .awareness:hover {
+        /*.awareness:hover {
             cursor: pointer;
             border-color: #3ddab87a;
-            transition: 1s
-        }
+            //transition: 1s;
+            background-color: rgba(15, 49, 129, 0.356);
+            h3 {
+                color: #fff;
+            }
+            p{
+                color: #fff;
+            }
+            .awareImg3 {
+                border-bottom: 5px solid #fff;
+            }
+        }*/
     }
 }

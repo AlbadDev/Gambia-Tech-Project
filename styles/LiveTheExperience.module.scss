@@ -6,17 +6,22 @@
     .experienceArticle {
         display: flex;
         flex-direction: column;
+        
 
         h2 {
             font-size: 36px;
             font-family: arial sans-serif;
             color: #2c2e35;
+            //border: 1px solid gray;
         }
 
         h3 {
-            font-size: 3rem;
+            font-size: 2rem;
             font-weight: 300;
             color: #171717;
+            letter-spacing: 1px;
+            //border: 1px solid gray;
+            margin-top: -20px;
         }
         
     }
@@ -29,7 +34,7 @@
         flex-direction: column;
         justify-content: space-around;
         width: 30%;
-        height: 450px;
+        height: 500px;
         background-color: rgb(255, 255, 255);
         margin: 5px;
         
@@ -62,7 +67,7 @@
             h3 {
                 color: #3109a0fa;
                 text-decoration: underline;
-                font-size: 14px;
+                font-size: 16px;
             }
             h3:hover{
                 cursor: pointer;
@@ -71,6 +76,7 @@
                 font-weight: 400;
                 font-family: arial sans-serif;
                 font-size: 18px;
+                word-spacing: 5px;
 
             }
         }
@@ -81,7 +87,7 @@
             background-color: #fff;
             padding: 10px;
             margin-top: -5px;
-            border-top: 0.5px solid rgba(0, 0, 255, 0.199);
+            //border-top: 0.5px solid rgba(0, 0, 255, 0.199);
             .readMore {
                 letter-spacing: 1px;
                 font-family: arial;
