@@ -16,7 +16,7 @@ const Awareness = () => {
                         <p>Gambia Tech Project grow a wide list of events around Tech to raise awareness and help entrepreneurs to understand a lot more.</p>
                     </div>
                     <div className={style.learnMoreContainer}>
-                        <button className={style.learnMoreButton}>Learn More</button>
+                        <button className={style.learnMoreButton}>Learn More &#x2192;</button>
                     </div>
                 </section>
 
@@ -27,7 +27,7 @@ const Awareness = () => {
                         <p>We offer a wide range of services to support entrepreneurs and stakeholders in our Lab open to the public</p>
                     </div> 
                     <div className={style.learnMoreContainer}>
-                        <button className={style.learnMoreButton}>Learn More</button>
+                        <button className={style.learnMoreButton}>Learn More &#x2192;</button>
                     </div>   
                 </section> 
                 <section className={style.awareness}>
@@ -37,7 +37,7 @@ const Awareness = () => {
                         <p>We have different programs, workshops and an incubator to support, train and accelerate Tech Startups</p>
                     </div>
                     <div className={style.learnMoreContainer}>
-                        <button className={style.learnMoreButton}>Learn More</button>
+                        <button className={style.learnMoreButton}>Learn More &#x2192;</button>
                     </div>   
                 </section>
             </section>

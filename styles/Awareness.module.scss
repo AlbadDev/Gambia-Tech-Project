@@ -54,6 +54,7 @@
 
                 }
                 p {
+                    color: #494A52;
                     border-left: 5px solid rgba(5, 5, 105, 0.932);
                     //#01A682; 
                     padding: 5px 15px;
@@ -100,17 +101,26 @@
                     letter-spacing: 1px;
                     font-family: arial;
                     margin: 0 auto;
+                    //color: #44bca1;
                     color: #fff;
+                    background-color: rgb(252, 248, 248);
                     background: linear-gradient(0, #44bca1, #85dfcc);
-                    border: none;
+                    border: 1px solid #44bca1;
                     border-radius: 10px ;
                     height: 30px;
                     margin: 15px;
                     float: right;
+                    //box-shadow: 5px 5px rgb(13, 13, 150);
                 }
                 .learnMoreButton:hover {
                     cursor: pointer;
-                    background: linear-gradient(0, #3ddab8, #5ebeaa);
+                    
+                    //background: linear-gradient(0, #44bca1, #0b20dd);
+                    //color: blue;
+                    //border: 1px solid blue;
+                    font-size: 16px;
+                    transition:0.5s ease-in-out;
+                    //transition-delay: 1s;
                 }
             }
             

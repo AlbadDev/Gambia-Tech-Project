@@ -1,13 +1,20 @@
 .experienceContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     height: auto;
     width: 100%;
     padding: 50px;
-    background-color: #F1F5F8;
+    
+    // border: 1px solid red;
+
+    
     .experienceArticle {
         display: flex;
         flex-direction: column;
-        
-
+        align-items: center;
+        //background-color: #F1F5F8;
+        //border: 1px solid rgb(238, 255, 0);
         h2 {
             font-size: 36px;
             font-family: arial sans-serif;
@@ -26,78 +33,143 @@
         
     }
     .articleContainer {
+        background-color: #F1F5F8;
+        //padding: 30px 30px;
         display: flex;
-        justify-content: center;
+        //justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+        // display: grid;
+        // grid-template-columns: repeat(4, 1fr);
+        // grid-gap: 10px;
+        width: 90%;
+        //border: 1px solid rgb(6, 194, 6);
+        //grid-auto-rows: auto;
+        
     }
     .article {
         display: flex;
+        flex-wrap: wrap;
+        //display: grid;
+        // grid-template-columns: 1fr;
         flex-direction: column;
         justify-content: space-around;
-        width: 30%;
-        height: 500px;
+        width: 25%;
+        max-width: 120rem;
+        height: 480px;
         background-color: rgb(255, 255, 255);
+        //border-radius: 30px;
         margin: 5px;
-        
+        overflow: hidden;
         .articleImg1 {
             background-image: url('../public/projectGoal.png');
             background-position: center;
             background-size: cover;
             height: 190px;
+            border-radius: 5px;
+            height: 200px;
         }
         .articleImg2 {
             background-image: url('../public/liveThexperience2.png');
             background-position: center;
             background-size: cover;
             height: 190px;
+            border-radius: 5px;
         }
         .articleImg3 {
             background-image: url('../public/training.png');
             background-position: center;
             background-size: cover;
             height: 190px;
+            border-radius: 5px;
         }
         .articleImg4 {
             background-image: url('../public/incubate.png');
             background-position: center;
             background-size: cover;
             height: 190px;
+            border-radius: 5px;
         }
         .articleBoby {
-            padding: 10px;
+            display: block;
+            align-items: center;
+            flex-direction: column;
+            //justify-content: space-evenly;            
+            //border: 5px solid rgb(4, 90, 4) ;
+            // margin-bottom: 5px;  
+            height: 240px;
+            width: 100%;  
             h3 {
                 color: #3109a0fa;
                 text-decoration: underline;
                 font-size: 16px;
+                //border: 1px solid greenyellow;
+                height: 50px;
+                padding: 3px 10px;
             }
             h3:hover{
                 cursor: pointer;
             }
             p {
+                text-align: start;
                 font-weight: 400;
                 font-family: arial sans-serif;
-                font-size: 18px;
+                font-size: 16px;
+                //letter-spacing: 1px;
                 word-spacing: 5px;
+                //border: 1px solid greenyellow;
+                height: 200px;
+                padding: 5px;
+                margin-top: -15px;
+                color: #2c2e35ce;
 
             }
         }
         .readMoreContainer {
+            display: flex;
+                justify-content: center;
+                align-items: center;
             // display: flex;
             // flex-direction: column;
             // justify-content: left;
             background-color: #fff;
-            padding: 10px;
-            margin-top: -5px;
+            //padding: 10px;
+            //margin-top: -5px;
+            //border: 1px solid red;
             //border-top: 0.5px solid rgba(0, 0, 255, 0.199);
+            height: 40px;
             .readMore {
                 letter-spacing: 1px;
                 font-family: arial;
+                font-weight: 600;
                 margin: 0 auto;
-                color: #fff;
-                background: linear-gradient(0, #44bca1, #85dfcc);
-                border: none;
+                color: blue;
+                //color: rgb(10, 10, 10);
+                //background: linear-gradient(0, #44bca1, #85dfcc);
+                //border: 1px solid blue;
                 border-radius: 5px ;
+                background-color: transparent;
+                transition: all .3s ease-in-out;
+                border: none;
+                border-bottom: 2px solid blue;
                 padding: 5px;
                 
+                // box-shadow: 5px 5px rgb(13, 13, 150);
+                
+            }
+            .readMore:hover {
+                //background: linear-gradient(0, #44bca1, #0b20dd);
+                color: blue;
+                //color: rgb(15, 15, 15);
+                border: 1px solid blue;
+                //background-color: #171717;
+                //color: #171717;
+                transition: 3s;
+                transition:step-end;
+                transition-timing-function: cubic-bezier(.4,0,.2,1);
+                cursor: pointer;
+                font-size: 14px;
             }
         }
     }

@@ -19,7 +19,7 @@ const LiveTheExperience = () => {
                         Are you a person interested in investing in Tech startups? Are you involved in developing the generation of Tech entrepreneurs? This is targeted to you.</p>
                     </div>
                     <div className={style.readMoreContainer}>
-                        <button className={style.readMore}>read more</button>
+                        <button className={style.readMore}>READ MORE &#x2192;</button>
                     </div>
                 </div>
                 <div className={style.article}>
@@ -29,7 +29,7 @@ const LiveTheExperience = () => {
                         <p>The innovation lab is a concept developed within The Gambia Tech Project to develop and support innovation through panel discussions and one – one meeting between entrepreneurs and key mentors. The idea is to help entrepreneurs to find the uniqueness or the innovation of their concept.</p>
                     </div>
                     <div className={style.readMoreContainer}>
-                        <button className={style.readMore}>read more</button>
+                        <button className={style.readMore}>READ MORE &#x2192;</button>
                     </div>
                 </div>
                 <div className={style.article}>
@@ -39,7 +39,7 @@ const LiveTheExperience = () => {
                         <p>Are you a Tech entrepreneur looking for tangible ways of building a successful startup? Are you a person interested in investing in Tech startups? Are you involved in developing the generation of Tech entrepreneurs? This is targeted to you.</p>
                     </div>
                     <div className={style.readMoreContainer}>
-                        <button className={style.readMore}>read more</button>
+                        <button className={style.readMore}>READ MORE &#x2192;</button>
                     </div>
                 </div>
                 <div className={style.article}>
@@ -49,10 +49,11 @@ const LiveTheExperience = () => {
                         <p>The innovation lab is a concept developed within The Gambia Tech Project to develop and support innovation through panel discussions and one – one meeting between entrepreneurs and key mentors. The idea is to help entrepreneurs to find the uniqueness or the innovation of their concept.</p>
                     </div>
                     <div className={style.readMoreContainer}>
-                        <button className={style.readMore}>read more</button>
+                        <button className={style.readMore}>READ MORE &#x2192;</button>
                     </div>
                 </div>
             </article>
+            <article >gallery</article>
         </section>
     )
 }
