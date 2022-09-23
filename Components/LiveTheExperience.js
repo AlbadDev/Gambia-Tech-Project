@@ -43,14 +43,16 @@ const LiveTheExperience = () => {
                     </div>
                 </div>
                 <div className={style.article}>
-                    <div className={style.articleImg4}></div>
-                    <div className={style.articleBoby}>
-                        <h3>Incubate ten (10) entrepreneurs every year</h3>
-                        <p>The innovation lab is a concept developed within The Gambia Tech Project to develop and support innovation through panel discussions and one – one meeting between entrepreneurs and key mentors. The idea is to help entrepreneurs to find the uniqueness or the innovation of their concept.</p>
-                    </div>
-                    <div className={style.readMoreContainer}>
-                        <button className={style.readMore}>READ MORE &#x2192;</button>
-                    </div>
+                    <section className={style.article4}>
+                        <div className={style.articleImg4}></div>
+                        <div className={style.articleBoby}>
+                            <h3>Incubate ten (10) entrepreneurs every year</h3>
+                            <p>The innovation lab is a concept developed within The Gambia Tech Project to develop and support innovation through panel discussions and one – one meeting between entrepreneurs and key mentors. The idea is to help entrepreneurs to find the uniqueness or the innovation of their concept.</p>
+                        </div>
+                        <div className={style.readMoreContainer}>
+                            <button className={style.readMore}>READ MORE &#x2192;</button>
+                        </div>
+                    </section>
                 </div>
             </article>
             <article >gallery</article>
